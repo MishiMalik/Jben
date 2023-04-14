@@ -217,6 +217,17 @@ body {
     .logo-div {
       display: none; } }
 
+.nav-logo {
+  display: none; }
+  @media only screen and (max-width: 991px) {
+    .nav-logo {
+      display: block;
+      height: 35px;
+      margin-bottom: 30px; } }
+  .nav-logo img {
+    height: 35px;
+    width: auto; }
+
 .navbar-content-small {
   justify-content: space-between;
   align-items: center;

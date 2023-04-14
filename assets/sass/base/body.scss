@@ -100,6 +100,18 @@ body{
         display: none;
      }
 }
+.nav-logo{
+    display: none;
+    @media only screen and (max-width:991px){
+        display: block;
+        height: 35px;
+        margin-bottom: 30px;
+     }
+     img{
+        height: 35px;
+        width: auto;   
+     }
+}
 .navbar-content-small{
     justify-content: space-between;
     align-items: center;
