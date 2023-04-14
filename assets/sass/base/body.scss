@@ -27,6 +27,7 @@ body{
     display: flex;
     @media only screen and (max-width:991px){
         flex-direction: column;
+
      }
     li{
         margin: 0px 12px;
@@ -80,6 +81,9 @@ body{
        min-height: 100vh;
        padding: 20px 15px;
        border-right: 2px solid var(--primary);
+       overflow-y: scroll !important;
+       height: 100vh;
+       overflow-x: hidden;
     }
 }
 .my-account-sm{

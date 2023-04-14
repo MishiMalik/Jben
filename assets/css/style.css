@@ -199,7 +199,10 @@ body {
       z-index: 1000 !important;
       min-height: 100vh;
       padding: 20px 15px;
-      border-right: 2px solid var(--primary); } }
+      border-right: 2px solid var(--primary);
+      overflow-y: scroll !important;
+      height: 100vh;
+      overflow-x: hidden; } }
 
 @media only screen and (max-width: 991px) {
   .my-account-sm {

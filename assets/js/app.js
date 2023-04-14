@@ -39,7 +39,7 @@ $('.owl-carousel').owlCarousel({
 $('.menu-icon').on("click",function(){
     $('.navbar-content').css("left",'0px');
     $('.backdrop').css("display",'block');
-    
+    $('.body').css("position",'fixed');
 })
 
 $('.backdrop').on("click",function(){
