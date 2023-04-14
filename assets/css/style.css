@@ -202,7 +202,8 @@ body {
       border-right: 2px solid var(--primary);
       overflow-y: scroll !important;
       height: 100vh;
-      overflow-x: hidden; } }
+      overflow-x: hidden;
+      padding-bottom: 70px; } }
 
 @media only screen and (max-width: 991px) {
   .my-account-sm {
