@@ -39,11 +39,11 @@ $('.owl-carousel').owlCarousel({
 $('.menu-icon').on("click",function(){
     $('.navbar-content').css("left",'0px');
     $('.backdrop').css("display",'block');
-    $('.body').css("position",'fixed');
+    $('.body').css("overflow-y",'hidden');
 })
 
 $('.backdrop').on("click",function(){
     $('.navbar-content').css("left",'-300px');
     $('.backdrop').css("display",'none');
-    
+    $('.body').css("overflow-y",'scroll');
 })
