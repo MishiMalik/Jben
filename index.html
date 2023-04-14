@@ -8,9 +8,13 @@
     <!-- =====================fonts=============== -->
     <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <!-- boottsrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>JBen</title>
 </head>
@@ -19,14 +23,31 @@
     <header class="w-100">
         <div class="navbar-top ">
             <div class="container-fluid">
+                <div class="navbar-content-small">
+                    <div class="menu-icon">
+                        <i class="bi bi-list"></i>
+                    </div>
+                    <div class="logo-div-small">
+                        <img src="assets/images/jben.png" alt="" class="img-fluid ms-4">
+                    </div>
+                    <div>
+                        <a href="" class="account-small"><i class="bi bi-person-bounding-box"></i></a>
+                    </div>
+                </div>
                 <div class="navbar-content">
                     <div class="d-flex align-items-center">
                         <div class="logo-div">
-                            <img src="assets/images/jben.png" alt="" class="img-fluid me-3">
+                            <img src="assets/images/jben.png" alt="" class="img-fluid ">
                         </div>
+                        <!-- <div class="d-flex justify-content-center align-items-center">
+                            <img src="assets/images/jben.png" alt="" class="img-fluid ">
+                        </div> -->
                         <ul class="ms-0 ps-0 navbar-links--list mb-0 mt-0">
                             <li>
                                 <a href="" class="navbar-link">Health</a>
+                            </li>
+                            <li>
+                                <a href="" class="navbar-link">Life</a>
                             </li>
                             <li>
                                 <a href="" class="navbar-link">Dental & Vision</a>
@@ -49,7 +70,7 @@
                     <div class="">
                         <ul class="ms-0 ps-0 navbar-links--list mb-0 mt-0">
                             <li>
-                                <a href="" class="navbar-link">My Account</a>
+                                <a href="" class="navbar-link my-account-sm">My Account</a>
                             </li>
                             <li>
                                 <a href="" class="navbar-button">CONTACT US</a>
@@ -61,68 +82,475 @@
         </div>
     </header>
     <main>
-        <div class="d-flex justify-content-center ">
+        <div class="d-flex justify-content-center mt-lg-3">
             <div class="main-logo">
                 <img src="assets/images/jben.png" alt="" class="">
             </div>
         </div>
 
-        <div class="main-section pt-lg-3">
-            <img src="assets/images/Designer life-amico.png" alt="" class="work-img ">
-            <img src="assets/images/Smart home-amico.png" alt="" class="home-img ">
+        <section>
+            <div class="main-section pt-lg-1">
+                <img src="assets/images/work-life.png" alt="" class="work-img ">
+                <img src="assets/images/home-life.png" alt="" class="home-img ">
+                <div class="container">
+                    <div class="row mt-lg-5 mt-3">
+                        <div class="col-lg-12">
+                            <h1 class="f-34 w-600 text-clr text-center z-index-12">Your Benifits,Your Way</h1>
+                            <p
+                                class="f-22 w-500 text-clr text-center mt-3 z-index-12 font-popins">
+                                <i class="bi bi-stars text-primary f-22 me-2 "></i>Forget everything you Know about
+                                insurance.
+                            </p>
+
+                            <div class="d-flex justify-content-center mt-5">
+                                <a href="" class="button-big z-index-12 ">Get a Quate Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="prices-section">
+            <div class="path-img">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#F0F0F0" fill-opacity="1"
+                        d="M0,128L60,122.7C120,117,240,107,360,122.7C480,139,600,181,720,181.3C840,181,960,139,1080,112C1200,85,1320,75,1380,69.3L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                    </path>
+                </svg>
+            </div>
+            <div class="path-content">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12 mb-4 ">
+                            <h1 class="text-clr text-center main-heading mt-100">
+                                Incredible Prices. Bundle Discounts.
+                                <br>
+                                Major Carriers. Unhindered. Unbiased Expertise.
+                            </h1>
+                            <p
+                                class="f-22 w-500 text-clr text-center mt-3 font-popins ">
+                                <i class="bi bi-stars text-primary f-22 me-2 "></i>Amazing savings when you bundle
+                            </p>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 mb-4 ">
+                            <div class="nav-cards">
+                                <img src="assets/images/Hospital building-amico.svg" alt="" class="">
+                                <h1 class="f-20 w-600 text-clr mt-4">Health</h1>
+                                <p class="f-16 w-400 text-grey navbar-cards-text mt-2 font-popins">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iste inventore soluta
+                                    accusantium amet explicabo expedita doloremque esse harum sapiente!
+                                </p>
+                                <div class="mt-2">
+                                    <a href="" class="btn-blue">Check our prices</a>
+                                </div>
+
+                                <div class="mt-4 pt-2">
+                                    <p class="mb-0 f-14 text-grey w-500">From $10/Mo</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6  col-sm-6  mb-4 ">
+                            <div class="nav-cards">
+                                <img src="assets/images/Life in a city-amico.svg" alt="" class="">
+                                <h1 class="f-20 w-600 text-clr mt-4">Life</h1>
+                                <p class="f-16 w-400 text-grey navbar-cards-text mt-2 font-popins">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iste inventore soluta
+                                    accusantium amet explicabo expedita doloremque esse harum sapiente!
+                                </p>
+                                <div class="mt-2">
+                                    <a href="" class="btn-blue">Check our prices</a>
+                                </div>
+
+                                <div class="mt-4 pt-2">
+                                    <p class="mb-0 f-14 text-grey w-500">From $10/Mo</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6  col-sm-6  mb-4 ">
+                            <div class="nav-cards">
+                                <img src="assets/images/Car crash-amico.svg" alt="" class="">
+                                <h1 class="f-20 w-600 text-clr mt-4">Accident</h1>
+                                <p class="f-16 w-400 text-grey navbar-cards-text mt-2 font-popins">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iste inventore soluta
+                                    accusantium amet explicabo expedita doloremque esse harum sapiente!
+                                </p>
+                                <div class="mt-2">
+                                    <a href="" class="btn-blue">Check our prices</a>
+                                </div>
+
+                                <div class="mt-4 pt-2">
+                                    <p class="mb-0 f-14 text-grey w-500">From $10/Mo</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6  col-sm-6  mb-4 ">
+                            <div class="nav-cards">
+                                <img src="assets/images/Hospital wheelchair-amico.svg" alt="" class="">
+                                <h1 class="f-20 w-600 text-clr mt-4">Disability</h1>
+                                <p class="f-16 w-400 text-grey navbar-cards-text mt-2 font-popins">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iste inventore soluta
+                                    accusantium amet explicabo expedita doloremque esse harum sapiente!
+                                </p>
+                                <div class="mt-2">
+                                    <a href="" class="btn-blue">Check our prices</a>
+                                </div>
+
+                                <div class="mt-4 pt-2">
+                                    <p class="mb-0 f-12 text-grey w-500">From $10/Mo</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6  col-sm-6  mb-4 ">
+                            <div class="nav-cards">
+                                <img src="assets/images/Lungs-rafiki.svg" alt="" class="">
+                                <h1 class="f-16 w-600 text-clr mt-4">Valve Adds</h1>
+                                <p class="f-16 w-400 text-grey navbar-cards-text mt-2 font-popins">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iste inventore soluta
+                                    accusantium amet explicabo expedita doloremque esse harum sapiente!
+                                </p>
+                                <div class="mt-2">
+                                    <a href="" class="btn-blue">Check our prices</a>
+                                </div>
+
+                                <div class="mt-4 pt-2">
+                                    <p class="mb-0 f-14 text-grey w-500">From $10/Mo</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6  col-sm-6  mb-4 ">
+                            <div class="nav-cards">
+                                <img src="assets/images/Oral care-amico.svg" alt="" class="">
+                                <h1 class="f-16 w-600 text-clr mt-4">Dental & Vision</h1>
+                                <p class="f-16 w-400 text-grey navbar-cards-text mt-2 font-popins">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iste inventore soluta
+                                    accusantium amet explicabo expedita doloremque esse harum sapiente!
+                                </p>
+                                <div class="mt-2">
+                                    <a href="" class="btn-blue">Check our prices</a>
+                                </div>
+
+                                <div class="mt-4 pt-2">
+                                    <p class="mb-0 f-14 text-grey w-500">From $10/Mo</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6  col-sm-6  mb-4 ">
+                            <div class="nav-cards">
+                                <img src="assets/images/Select house-bro.svg" alt="" class="">
+                                <h1 class="f-16 w-600 text-clr mt-4">Property & casuality</h1>
+                                <p class="f-16 w-400 text-grey navbar-cards-text mt-2 font-popins">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iste inventore soluta
+                                    accusantium amet explicabo expedita doloremque esse harum sapiente!
+                                </p>
+                                <div class="mt-2">
+                                    <a href="" class="btn-blue">Check our prices</a>
+                                </div>
+
+                                <div class="mt-4 pt-2">
+                                    <p class="mb-0 f-14 text-grey w-500">From $10/Mo</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="mt-5">
             <div class="container">
-                <div class="row mt-5">
-                    <div class="col-lg-12">
-                        <h1 class="f-30 w-500 text-clr text-center">Your Benifits, Your Way</h1>
-                        <p class="f-16 w-400 text-clr text-center">Forget everything you about insurance.</p>
-                        <div class="d-flex justify-content-center mt-5">
-                            <a href="" class="button-big">Get a Quate Now</a>
+                <div class="row">
+                    <div class="col-lg-12 mb-0 ">
+                        <h1 class="text-clr text-center main-heading">
+                            Instant Everything
+
+                        </h1>
+
+                    </div>
+                    <div class="col-lg-8 mx-auto">
+                        <p
+                            class="f-22 w-500 text-clr text-center mt-3 font-popins  mb-0">
+                            <i class="bi bi-stars text-primary f-22 me-2 "></i>With Cloud Storage JBen provides each
+                            client to files pertaining to their coverage.Your Courge, Your Data
+                        </p>
+                    </div>
+                    <div class="col-lg-7 mx-auto d-flex justify-content-center">
+                        <img src="assets/images/cloud4.avif" alt="" class="img-fluid w-75">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="path-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 ">
+                        <h1 class="text-clr text-center main-heading">
+                            Already insured? Already have an agent?
+                        </h1>
+                        <p
+                            class="f-22 w-500 text-clr text-center mt-3 font-popins">
+                            <i class="bi bi-stars text-primary f-22 me-2 "></i>No Problem! We’ll help you switch!
+                        </p>
+
+
+                         <div class="row mt-5 pt-2">
+                               <div class="col-lg-12 mx-auto d-flex justify-content-center align-items-center">
+                                <img src="assets/images/carrier6.jpg" alt="" class="img-1 me-4">
+                               <img src="assets/images/carrier1.jpg" alt="" class="img-2 me-4">
+                               <img src="assets/images/carrier2.webp" alt="" class="img-3 me-4">
+                               <img src="assets/images/carrier7.png" alt="" class="img-6  ">
+
+                               </div>
+                              
+                         </div>
+                         <div class="row mt-3">
+                           <div class="col-lg-12 d-flex justify-content-center mx-auto align-items-center mt-4">
+                            <img src="assets/images/carrier3.jpg" alt="" class="img-3 ">
+                            <img src="assets/images/carrier5.jpeg" alt="" class="img-2 mx-4">
+                            <img src="assets/images/carrier4.jpg" alt="" class="img-1">
+                           </div>
+                         </div>
+
+
+
+                        <div class="d-flex justify-content-center mt-5 pt-4">
+                            <a href="" class="button-big">CHECK PRICES AND SWITCH</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        
+        <section class="mt-5 pt-lg-5 pt-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 mb-0 ">
+                        <h1 class="text-clr text-center main-heading">
+                           How it Works with Us?
+                        </h1>
+                    </div>
+                    <div class="col-lg-12 mx-auto">
+                        <p
+                            class="f-16 w-500 text-clr text-center mt-3 font-popins  mb-0">
+                     JBen sets out to be coatrarian to the traditional insurance model. We treat your bussiness as, well,Yours.With jBen everything become simple and transparent. You are the decision maker, we are simply here to advice, guide and answer any questions. We take a flat feel, respond quikly and are always looking to reinvest in our customers.
+                        </p>
+                    </div>
+                    <div class="col-lg-7 mx-auto d-flex justify-content-center mt-5">
+                        <img src="assets/images/Daco_5035444.png" alt="" class="img-fluid ">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="path-content mt-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 mb-5">
+                        <h1 class="text-clr text-center main-heading">
+                           Associations and Chambers we belong to
+                         </h1>
+                    </div>
+                    <div class="col-lg-3 mb-4 ">
+                        <div class="nav-cards">
+                            <img src="assets/images/Honesty-amico.png" alt="" class="">
+                            <h1 class="f-20 w-600 text-clr mt-4">Honest</h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 ">
+                        <div class="nav-cards">
+                            <img src="assets/images/Work chat-amico.png" alt="" class="">
+                            <h1 class="f-20 w-600 text-clr mt-4">Straight Forward</h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 ">
+                        <div class="nav-cards">
+                            <img src="assets/images/Portfolio-amico.png" alt="" class="">
+                            <h1 class="f-20 w-600 text-clr mt-4">Experience</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="pt-3 mt-5">
+            <div class="container ">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 mb-3">
+                        <h1 class="text-clr text-center main-heading">
+                           OUR TESTIMONIALS
+                         </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel owl-theme pb-4">
+                <div class="item">
+                    <div class="testimonial-card">
+                        <div class="d-flex align-items-start">
+                            <div class="dp-img">
+                                <img src="assets/images/dp1.jpg" alt="">
+                            </div>
+                            <div class="ms-2">
+                                <h1 class="mb-0">Rohan Gandhi</h1>
+                                <p class="mb-0 pb-0 font-popins w-500">timesnewrohan</p>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-star-fill text-yellow me-1"></i>
+                                    <i class="bi bi-star-fill text-yellow me-1"></i>
+                                    <i class="bi bi-star-fill text-yellow me-1"></i>
+                                    <i class="bi bi-star-fill text-yellow me-1"></i>
+                                    <i class="bi bi-star-fill text-yellow"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0 pb-0 text ellipsis-5 font-popins">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut nostrum nisi obcaecati cum? Perspiciatis qui repudiandae magnam explicabo, dolorem labore sequi. Saepe provident praesentium nam asperiores totam deserunt, exercitationem tempora!
+                        </p>
+                    </div>
+                </div>
+               
+                <div class="item">
+                    <div class="testimonial-card">
+                        <div class="d-flex align-items-start">
+                            <div class="dp-img">
+                                <img src="assets/images/dp2.jpeg" alt="">
+                            </div>
+                            <div class="ms-2">
+                                <h1 class="mb-0">Rohan Gandhi</h1>
+                                <p class="mb-0 pb-0 font-popins w-500">timesnewrohan</p>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-star-fill text-yellow me-1"></i>
+                                    <i class="bi bi-star-fill text-yellow me-1"></i>
+                                    <i class="bi bi-star-fill text-yellow me-1"></i>
+                                    <i class="bi bi-star-fill text-yellow me-1"></i>
+                                    <i class="bi bi-star-fill text-yellow"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0 pb-0 text ellipsis-5 font-popins">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut nostrum nisi obcaecati cum? Perspiciatis qui repudiandae magnam explicabo, dolorem labore sequi. Saepe provident praesentium nam asperiores totam deserunt, exercitationem tempora!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+ 
+        
     </main>
 
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+               <div class="col-lg-2 d-flex align-items-center justify-content-center mb-lg-0 mb-4">
+                 <img src="assets/images/jben.png" alt="" class="img-fluid footer-logo">
+               </div>
+               <div class="col-lg-2">
+                <h1 class="f-18 w-600 text-white mb-3 mt-lg-0 mt-4">FEATURES</h1>
+                <div class="mb-2">
+                    <a href="" class="pb-4 f-14 w-400 text-white no-decoration font-popins">Health</a>
+                </div> 
+                <div class="mb-2">
+                    <a href="" class="pb-4 f-14 w-400 text-white no-decoration font-popins">Life</a>
+                </div> 
+                <div class="mb-2">
+                    <a href="" class="pb-4 f-14 w-400 text-white no-decoration font-popins">Dental & Vision</a>
+                </div> 
+                <div class="mb-2">
+                    <a href="" class="pb-4 f-14 w-400 text-white no-decoration font-popins">Disability</a>
+                </div> 
+                <div class="mb-2">
+                    <a href="" class="pb-4 f-14 w-400 text-white no-decoration font-popins">Property & Casuality </a> 
+                </div>
+                <div class="mb-2">
+                    <a href="" class="pb-4 f-14 w-400 text-white no-decoration font-popins">Accident</a> 
+                </div>
+                <div class="mb-2">
+                    <a href="" class="pb-4 f-14 w-400 text-white no-decoration font-popins">Valve Ads</a> 
+                </div>
+               </div>
+
+               <div class="col-lg-2">
+                <h1 class="f-18 w-600 text-white mb-3 mt-lg-0 mt-4">RESOURCES</h1>
+                <div class="mb-2">
+                    <a href="" class="pb-4 f-14 w-400 text-white no-decoration font-popins">Get a Quate</a> 
+                </div>
+                <div class="mb-2">
+                    <a href="" class="pb-4 f-14 w-400 text-white no-decoration font-popins">Contact Us</a> 
+                </div>
+                <div class="mb-2">
+                    <a href="" class="pb-4 f-14 w-400 text-white no-decoration font-popins">Transparency</a> 
+                </div>
+                <div class="mb-2">
+                    <a href="" class="pb-4 f-14 w-400 text-white no-decoration font-popins">Content Library</a> 
+                </div>
+                <div class="mb-2">
+                     <a href="" class="pb-4 f-14 w-400 text-white no-decoration font-popins">Insurance Dictionary</a> 
+                </div>
+               </div>
+               <div class="col-lg-2">
+                <h1 class="f-18 w-600 text-white mb-3 mt-lg-0 mt-4">COMPANY</h1>
+                <div class="mb-2">
+                    <a href="" class="pb-4 f-14 w-400 text-white no-decoration font-popins">Join the Team</a> 
+                </div>
+                <div class="mb-2">
+                    <a href="" class="pb-4 f-14 w-400 text-white no-decoration font-popins">Legal Stuff</a> 
+                </div>
+                <div class="mb-2">
+                    <a href="" class="pb-4 f-14 w-400 text-white no-decoration font-popins">About us</a> 
+                </div>
+                <div class="mb-2">
+                    <a href="" class="pb-4 f-14 w-400 text-white no-decoration font-popins">Terms of Service</a> 
+                </div>
+                <div class="mb-2">
+                     <a href="" class="pb-4 f-14 w-400 text-white no-decoration font-popins">Testimonials</a> 
+                </div>
+                
+               </div>
+              
+
+               <div class="col-lg-4 ">
+                <h1 class="f-18 w-600 text-white mb-3 mt-lg-0 mt-4">FOLLOW US</h1>
+                <div class="d-flex align-items-center justify-content-between flex-wrap">
+                    <div class="mb-2">
+                        <a href="" class="pb-4  w-400 text-white no-decoration font-popins"><i class="bi bi-instagram f-32 me-2"></i></a> 
+                    </div>
+                    <div class="mb-2">
+                        <a href="" class="pb-4  w-400 text-white no-decoration font-popins"><i class="bi bi-facebook f-32 me-2"></i></a> 
+                    </div>
+                    <div class="mb-2">
+                        <a href="" class="pb-4  w-400 text-white no-decoration font-popins"><i class="bi bi-twitter f-32 me-2"></i></a> 
+                    </div>
+                    <div class="mb-2">
+                        <a href="" class="pb-4  w-400 text-white no-decoration font-popins"><i class="bi bi-youtube f-36 me-2"></i></a> 
+                    </div>
+                    <div class="mb-2">
+                        <a href="" class="pb-4  w-400 text-white no-decoration f-36 me-2">M</a> 
+                    </div>
+                    <div class="mb-2">
+                         <a href="" class="pb-4  w-400 text-white no-decoration font-popins"><i class="bi bi-globe2 f-36"></i></a> 
+                    </div>
+                </div>
+
+              
+                
+               </div>
+            </div>
+        </div>
+    </footer>
+
     <div class="bg-light">
-
-        bus dolore nihil voluptatem asperiores numquam sed inventore, tempora et. Asperiores saepe quisquam autem
-        tenetur impedit eveniet labore amet vitae ipsa quos recusandae non iure, at similique a possimus quam velit.
-        luptatem atque quibusdam maxime rerum aut nostrum minima dignissimos sunt illo eos voluptatum doloremque
-        nesciunt iusto voluptatibus delectus suscipit nemo, officia eaque aliquid. Molestias omnis aut eveniet itaque
-        perferendis nisi culpa, provident odit ratione quibusdam dolorum eaque adipisci exercitationem blanditiis, nemo
-        commodi earum officiis aliquid non tempore ipsam. Cum accusantium consectetur aliquam modi debitis. Nobis
-        aperiam quos laboriosam possimus, ducimus, ipsa at dicta, amet fugit sequi quia! Voluptate cupiditate mollitia
-        deserunt iusto reprehenderit reiciendis repellendus ea, quae autem dignissimos error incidunt, et ad ipsum
-        cumque repudiandae. Praesentium officia at eligendi. Ab quas impedit et ipsam deserunt facere laboriosam dolorum
-        natus beatae iste sed eius, blanditiis labore saepe fugiat id consequatur excepturi aperiam repellat illum.
-        Soluta aut iste, distinctio ab magnam assumenda ipsam fugit facilis commodi unde officia quisquam accusamus.
-        Iusto quasi nesciunt, tempore voluptatibus soluta similique accusamus ipsum, quidem blanditiis molestiae
-        voluptatum sapiente aut quod aliquid assumenda saepe odit dolores eligendi repudiandae fuga. Dolores magnam
-        ratione vel. Quidem veniam cum vel dolorum eveniet, consequatur, beatae quibusdam fugit, similique enim officiis
-        veritatis cumque assumenda dolores laborum magnam ut? Deserunt ab ipsam vitae doloribus quis nobis magnam modi
-        iste! Nihil vero impedit assumenda eaque libero temporibus cupiditate quidem dolores, nam repellendus aspernatur
-        vel rerum maiores corporis! Incidunt sunt, itaque voluptatibus error reprehenderit asperiores minima nostrum
-        officiis quam quos delectus optio obcaecati iure veniam vero cum officia? Nobis, maxime repudiandae! Excepturi,
-        quae sit deserunt expedita consequuntur porro, vitae optio, omnis dolor saepe libero illum. Temporibus
-        voluptates ducimus, consequuntur labore optio quae iste totam laboriosam excepturi alias quos atque eum facilis
-        harum! Repellendus repudiandae molestiae accusamus autem recusandae voluptatem distinctio suscipit amet dolores
-        nisi qui similique mollitia dicta veritatis, sequi deserunt totam velit sunt quae! Dolorem enim minus ratione
-        aspernatur, itaque labore facilis voluptatem blanditiis corporis, consectetur, ex omnis consequatur. Voluptas
-        iste, ab ducimus, aspernatur quo libero, quae laudantium eos totam mollitia at! Cupiditate voluptas ipsa
-        architecto, labore repudiandae voluptates impedit ratione similique eaque eius voluptate inventore suscipit,
-        fugiat facere, eos autem sint dignissimos assumenda asperiores error excepturi laboriosam nesciunt? Similique
-        obcaecati repudiandae maxime sapiente illum corporis voluptatem quo consequatur ratione minus? Omnis quod,
-        officiis ullam, nobis inventore, veniam consequuntur amet laborum quam doloremque animi odio repellendus!
-        Nesciunt deleniti error expedita, velit, iusto neque explicabo, eum aliquam id ullam quos mollitia? Illum
-        dignissimos ipsam natus, nulla iusto quisquam! Nihil nam quae eveniet blanditiis officia libero fugiat tenetur
-        officiis, molestias fugit doloribus alias, quaerat voluptatum ut! Tempora necessitatibus aliquam, quos placeat
-        minus molestiae consequuntur quas ut vel quia, labore provident accusamus id praesentium vero voluptatum. Est
-        corrupti sit quisquam incidunt maxime. Quam, voluptatum?
-
     </div>
 
-
+<div class="backdrop"></div>
 
 
     <script src="https://code.jquery.com/jquery-3.6.4.slim.js"
@@ -130,6 +558,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="assets/js/app.js"></script>
 </body>
 
