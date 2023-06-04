@@ -4,6 +4,11 @@ body{
     padding-top: 70px;
 }
 
+.container{
+    @media only screen and (max-width:1250px){
+        max-width: 95%;
+    }
+}
 // ============================================================navbar
 .navbar-top {
     // border-bottom: 1px solid rgb(218, 218, 218);
@@ -188,6 +193,7 @@ body{
     border: 1px solid transparent;
     transition: all 0.3s ease 0s, transform 0.5s ease 0s;
     box-shadow: rgba(#029EE2, 0.5) 0px 10px 40px -10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
    
 }
 
@@ -235,11 +241,13 @@ body{
     border: 1px solid transparent;
     box-shadow: rgba(#029EE2, 0.5) 0px 10px 40px -10px;
     z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     @media only screen and (max-width:500px){
         font-size: 14px;
      }
 }
 .btn-blue{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     white-space: nowrap;
     text-decoration: none;
     text-shadow: none;

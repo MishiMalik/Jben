@@ -1,0 +1,66 @@
+.round-cards{
+    
+    .img-div{
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+        background-color: rgba(255, 255, 255, 0.582);
+        padding: 25px;
+        img{
+
+        }
+    }
+}
+.rating-star{
+    font-size: 140px;
+    color: var(--primary);
+    @media only screen and (max-width:767px){
+        font-size: 60px;
+    }
+    @media only screen and (max-width:357px){
+        font-size: 40px;
+    }
+}
+.review-section{
+    position: relative;
+    .back-img{
+        position: absolute;
+        top: -70px;
+        right: 0px;
+        height: 250px;
+        width: auto;
+        z-index: -1;
+    }
+    z-index: 4;
+}
+.form-section{
+    margin-top: -150px;
+    // z-index: 2;
+    padding-top: 170px;
+    background-color: #F0F0F0;
+    object-fit: contain;
+    position: relative;
+    min-height: 100vh;
+    .form-bg{
+        // position: absolute;
+        // z-index: 4;
+        // left: 0;
+        // right: 0;
+        // bottom: 0;
+        object-fit: contain;
+    }
+}
+.form-label{
+  font-size: 12px;
+  font-weight: 400;
+}
+.form-control{
+    border: 0px solid var(--grey);
+    background-color: var(--grey-light);
+    &:focus{
+        border: none;
+        box-shadow: none;
+        outline: none;
+        background-color: var(--grey-light);
+    }
+}
