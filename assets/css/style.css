@@ -131,7 +131,7 @@
 
 body {
   box-sizing: border-box;
-  font-family: 'Martian Mono', monospace;
+  font-family: "Martian Mono", monospace;
   padding-top: 70px; }
 
 @media only screen and (max-width: 1250px) {
@@ -147,7 +147,7 @@ body {
   left: 0;
   right: 0;
   background-color: white;
-  transition: all .2s;
+  transition: all 0.2s;
   z-index: 100; }
   @media only screen and (max-width: 991px) {
     .navbar-top {
@@ -192,7 +192,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center !important;
-  transition: all .3s; }
+  transition: all 0.3s; }
   @media only screen and (max-width: 991px) {
     .navbar-content {
       position: fixed;
@@ -392,6 +392,9 @@ body {
   z-index: 20;
   background-color: #000000b0;
   display: none; }
+
+.active-link {
+  color: var(--primary) !important; }
 
 .main-section {
   position: relative;
