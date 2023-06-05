@@ -1,3 +1,5 @@
+  AOS.init();
+
 $(window).scroll(function() {
     if ( $(window).scrollTop() >= 100 ) {
         $('.logo-div').css('margin-left', '0');
