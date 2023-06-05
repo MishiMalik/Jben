@@ -65,3 +65,9 @@
         background-color: var(--grey-light);
     }
 }
+.img-big {
+    height: 600px;
+    @media only screen and (max-width:767px){
+  height: auto;
+    }
+}

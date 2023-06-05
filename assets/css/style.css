@@ -685,3 +685,9 @@ body {
     box-shadow: none;
     outline: none;
     background-color: var(--grey-light); }
+
+.img-big {
+  height: 600px; }
+  @media only screen and (max-width: 767px) {
+    .img-big {
+      height: auto; } }
