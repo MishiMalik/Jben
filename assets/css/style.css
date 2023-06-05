@@ -406,7 +406,7 @@ body {
     left: 0;
     height: 450px;
     width: auto;
-    z-index: 9; }
+    z-index: -1; }
     @media only screen and (max-width: 1200px) {
       .main-section .work-img {
         height: 350px;
