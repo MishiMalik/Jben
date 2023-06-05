@@ -39,6 +39,9 @@
     object-fit: contain;
     position: relative;
     min-height: 100vh;
+    @media only screen and (max-width:767px){
+        padding-top: 120px;
+    }
     .form-bg{
         // position: absolute;
         // z-index: 4;
